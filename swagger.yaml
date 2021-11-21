@@ -2,6 +2,9 @@ openapi: 3.0.2
 info:
   title: Barbank2
   version: 1.0.0
+servers:
+  -
+    url: https://barbank.diarainfra.com
 paths:
   /users:
     summary: Path used to manage the list of users.
